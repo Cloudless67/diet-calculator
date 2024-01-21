@@ -169,15 +169,3 @@
     </tbody>
   </table>
 </main>
-
-<style>
-  details > summary {
-    list-style: none;
-  }
-  summary::after {
-    content: ' ►';
-  }
-  details[open] summary:after {
-    content: ' ▼';
-  }
-</style>
